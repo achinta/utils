@@ -1,14 +1,25 @@
 ###################### Begin of vim install and config ############################
 sudo apt-get install vim-gtk
 
+#delete .vimrc symbolic link
+if [ -L ~/.vimrc ]; then
+  echo "symbolic link to .vimrc exists. Deleting it"
+  unlink ~/.vimrc
+fi
+
+#if .vim directory exists, delete it
+if [ -d ~/.vim ]; then
+    echo ".vim directory exists. Deleting it"
+    rm -rf ~/.vim 
+fi
+
 # create the .vim from the git
 git clone https://github.com/achinta/dotvim.git ~/.vim
-ln -s ~/.vim/.vimrc ~/.vimrc
+echo "Clone https://github.com/achinta/dotvim.git into ~/.vim"
 
 #from http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-#mv ~/.vimrc ~/.vim/vimrc
 #Create symbolic links so that ~/.vimrc points to the ~/.vim/vimrc file:
-
+ln -s ~/.vim/.vimrc ~/.vimrc
 
 #install pathogen - from https://github.com/tpope/vim-pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle; \
@@ -18,8 +29,10 @@ curl -Sso ~/.vim/autoload/pathogen.vim \
 
 #install the plugins
 cd ~/.vim/bundle
-git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/scrooloose/nerdcommenter.git
-git clone https://github.com/vim-scripts/dbext.vim
+git clone git://github.com/scrooloose/nerdtree.git
+git clone git://github.com/scrooloose/nerdcommenter.git
+git clone git://github.com/vim-scripts/dbext.vim
+git clone git://github.com/tpope/vim-fugitive.git
+git clone git://github.com/ervandew/supertab.git
 
 ###################### End of vim install and config ############################
