@@ -34,5 +34,6 @@ git clone git://github.com/scrooloose/nerdcommenter.git
 git clone git://github.com/vim-scripts/dbext.vim
 git clone git://github.com/tpope/vim-fugitive.git
 git clone git://github.com/ervandew/supertab.git
+git clone git://github.com/actionshrimp/vim-xpath.git
 
 ###################### End of vim install and config ############################
