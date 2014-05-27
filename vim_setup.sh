@@ -35,5 +35,7 @@ git clone git://github.com/vim-scripts/dbext.vim
 git clone git://github.com/tpope/vim-fugitive.git
 git clone git://github.com/ervandew/supertab.git
 git clone git://github.com/actionshrimp/vim-xpath.git
+git clone git://github.com/tpope/vim-rails.git
+git clone git://github.com/tpope/vim-bundler.git
 
 ###################### End of vim install and config ############################
