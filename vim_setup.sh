@@ -29,13 +29,13 @@ curl -Sso ~/.vim/autoload/pathogen.vim \
 
 #install the plugins
 cd ~/.vim/bundle
-git clone git://github.com/scrooloose/nerdtree.git
-git clone git://github.com/scrooloose/nerdcommenter.git
-git clone git://github.com/vim-scripts/dbext.vim
-git clone git://github.com/tpope/vim-fugitive.git
-git clone git://github.com/ervandew/supertab.git
-git clone git://github.com/actionshrimp/vim-xpath.git
-git clone git://github.com/tpope/vim-rails.git
-git clone git://github.com/tpope/vim-bundler.git
+git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/scrooloose/nerdcommenter.git
+git clone https://github.com/vim-scripts/dbext.vim
+git clone https://github.com/tpope/vim-fugitive.git
+git clone https://github.com/ervandew/supertab.git
+git clone https://github.com/actionshrimp/vim-xpath.git
+git clone https://github.com/tpope/vim-rails.git
+git clone https://github.com/tpope/vim-bundler.git
 
 ###################### End of vim install and config ############################
