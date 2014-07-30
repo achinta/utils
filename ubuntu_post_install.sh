@@ -3,13 +3,24 @@
 
 #sudo apt-get update
 
+#utils
+sudo apt-get install curl
+
 #version control
+sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get install subversion git
 
 #media player
 sudo apt-get install vlc
 
-sudo apt-get install curl
+#google chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get install google-chrome-stable
+
+#Ruby version manager
+curl -sSL https://get.rvm.io | bash -s stable
+
 
 
 
