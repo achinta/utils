@@ -36,6 +36,7 @@ git clone https://github.com/ervandew/supertab.git
 git clone https://github.com/actionshrimp/vim-xpath.git
 git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/tpope/vim-bundler.git
-git clone https://github.com/kshenoy/vim-signature.git  
+git clone https://github.com/kshenoy/vim-signature.git #to handle marks
+git clone https://github.com/tpope/vim-ragtag.git #autoclose tags
 
 ###################### End of vim install and config ############################
