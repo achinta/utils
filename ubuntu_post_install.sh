@@ -15,11 +15,16 @@ sudo apt-get install apache2 libapache2-mod-wsgi nginx
 #media player
 sudo apt-get install vlc
 
-#database
-sudo apt-get install postgresql postgresql-contrib
+#postgresql
+sudo apt-get install postgresql postgresql-contrib libpq-dev 
+
+#postgis TODO check version
+postgresql-9.3-postgis-2.1 
 
 #python
-sudo apt-get install python-pip python-virtualenv
+sudo apt-get install python-pip python-psycopg2 python-dev
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
 
 #google chrome
 sudo apt-get install chromium-browser
@@ -29,21 +34,21 @@ sudo apt-get install chromium-browser
 
 ######   Ruby 
 #environment manager (from https://github.com/sstephenson/rbenv)
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-git clone git://github.com/carsomyr/rbenv-bundler.git ~/.rbenv/plugins/bundler
-#list of ruby versions available for installation : rbenv install -l
-#install a ruby version : rbenv install 2.1.2
-#set version for use : rbenv global 2.1.2
-#echo 'export RBENV_VERSION="2.1.2"' >> ~/.bashrc
+#git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+#echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+#echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+#git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+#git clone git://github.com/carsomyr/rbenv-bundler.git ~/.rbenv/plugins/bundler
+####list of ruby versions available for installation : rbenv install -l
+####install a ruby version : rbenv install 2.1.2
+####set version for use : rbenv global 2.1.2
+####echo 'export RBENV_VERSION="2.1.2"' >> ~/.bashrc
 #bundler
-sudo gem install bundler --no-ri --no-rdoc
+#sudo gem install bundler --no-ri --no-rdoc
 
 
 #Node Js
-sudo apt-add-repository -y ppa:chris-lea/node.js
+#sudo apt-add-repository -y ppa:chris-lea/node.js
 
 
 
