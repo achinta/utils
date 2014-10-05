@@ -40,4 +40,5 @@ git clone https://github.com/kshenoy/vim-signature.git #to handle marks
 git clone https://github.com/tpope/vim-ragtag.git 
 git clone https://github.com/Townk/vim-autoclose.git
 git clone https://github.com/honza/vim-snippets.git
+git clone https://github.com/plasticboy/vim-markdown.git
 ###################### End of vim install and config ############################
