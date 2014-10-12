@@ -4,30 +4,30 @@
 #sudo apt-get update
 
 #utils
-sudo apt-get install curl 
+sudo apt-get -y install curl 
 
 #version control
-sudo apt-get install subversion git
+sudo apt-get -y install subversion git
 
 #web servers
-sudo apt-get install apache2 libapache2-mod-wsgi nginx
+sudo apt-get -y install apache2 libapache2-mod-wsgi nginx
 
 #media player
 #sudo apt-get install vlc
 
 #postgresql
-sudo apt-get install postgresql postgresql-contrib libpq-dev 
+sudo apt-get -y install postgresql postgresql-contrib libpq-dev 
 
 #postgis TODO check version
-postgresql-9.3-postgis-2.1 
+sudo apt-get -y install postgresql-9.3-postgis-2.1 
 
 #python
-sudo apt-get install python-pip python-psycopg2 python-dev
+sudo apt-get -y install python-pip python-psycopg2 python-dev
 sudo pip install virtualenv
 sudo pip install virtualenvwrapper
 
 #google chrome
-sudo apt-get install chromium-browser
+sudo apt-get -y install chromium-browser
 #wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 #sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 #sudo apt-get install google-chrome-stable
