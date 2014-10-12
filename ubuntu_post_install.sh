@@ -13,7 +13,7 @@ sudo apt-get install subversion git
 sudo apt-get install apache2 libapache2-mod-wsgi nginx
 
 #media player
-sudo apt-get install vlc
+#sudo apt-get install vlc
 
 #postgresql
 sudo apt-get install postgresql postgresql-contrib libpq-dev 
