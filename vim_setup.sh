@@ -1,5 +1,5 @@
 ###################### Begin of vim install and config ############################
-sudo apt-get install vim-gtk
+sudo apt-get -y install python-lxml vim-gtk
 
 #delete .vimrc symbolic link
 if [ -L ~/.vimrc ]; then
