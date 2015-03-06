@@ -28,17 +28,17 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 #install the plugins
 cd ~/.vim/bundle
-git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/scrooloose/nerdcommenter.git
-git clone https://github.com/vim-scripts/dbext.vim
-git clone https://github.com/tpope/vim-fugitive.git
-git clone https://github.com/ervandew/supertab.git
-git clone https://github.com/actionshrimp/vim-xpath.git
-git clone https://github.com/tpope/vim-rails.git
-git clone https://github.com/tpope/vim-bundler.git
-git clone https://github.com/kshenoy/vim-signature.git #to handle marks
-git clone https://github.com/tpope/vim-ragtag.git 
-git clone https://github.com/Townk/vim-autoclose.git
-git clone https://github.com/honza/vim-snippets.git
-git clone https://github.com/plasticboy/vim-markdown.git
+git clone --depth 1 https://github.com/scrooloose/nerdtree.git
+git clone --depth 1  https://github.com/scrooloose/nerdcommenter.git
+git clone --depth 1  https://github.com/vim-scripts/dbext.vim
+git clone --depth 1  https://github.com/tpope/vim-fugitive.git
+git clone --depth 1  https://github.com/ervandew/supertab.git
+git clone --depth 1  https://github.com/actionshrimp/vim-xpath.git
+git clone --depth 1  https://github.com/tpope/vim-rails.git
+git clone --depth 1  https://github.com/tpope/vim-bundler.git
+git clone --depth 1  https://github.com/kshenoy/vim-signature.git #to handle marks
+git clone --depth 1  https://github.com/tpope/vim-ragtag.git 
+git clone --depth 1  https://github.com/Townk/vim-autoclose.git
+git clone --depth 1  https://github.com/honza/vim-snippets.git
+git clone --depth 1  https://github.com/plasticboy/vim-markdown.git
 ###################### End of vim install and config ############################
